@@ -1,0 +1,14 @@
+:root {
+    --color-primary: ##598bdd;
+    --color-dark: ##0b0508;
+    --color-light: ##ffffff;
+    --color-inactive: ##c4bcb8;
+}
+
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
