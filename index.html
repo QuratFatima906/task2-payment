@@ -1,12 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
     <title>Payment</title>
 </head>
+
 <body>
-    
+    <div class="card-container">
+        <div class="progress-dots">
+            <span class="dot dot-active" ></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+        <div class="title">payment method</div>
+        <ul class="items-container">
+            <li>
+                <div class="item">
+                    <span class="icon"><img src="./img/visa.svg" alt="visa"></span>
+                    <span class="text text-muted">visa</span>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <span class="icon"><img src="./img/mastercard.svg" alt="mastercard"></span>
+                    <span class="text text-active">mastercard</span>
+                </div>
+                <div>
+                    <span class="check"><img src="./img/check.svg" alt="selected"></span>
+                </div>
+            </li>
+            <li>
+                <div class="item">
+                    <span class="icon"><img src="./img/maestro.svg" alt="maestro"></span>
+                    <span class="text text-muted">maestro</span>
+                </div>
+            </li>
+        </ul>
+        <button class="btn-cta">
+            <span class="cta-text">next step</span>
+            <span class="arrow"><img src="./img/arrow.svg" alt="next step"></span>
+        </button>
+    </div>
+
+
 </body>
+
 </html>
