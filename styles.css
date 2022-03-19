@@ -138,3 +138,10 @@ body {
 }
 
 
+@media screen and (max-width: 400px) {
+
+    .card-container {
+      max-width: 17rem;
+    }
+  }
+  
